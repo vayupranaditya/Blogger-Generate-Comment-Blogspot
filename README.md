@@ -1,30 +1,13 @@
-"# Blogger-Generate-Comment-Blogspot" 
+# Blogger-Generate-Comment-Blogspot
 
-The program generate comment in base of other comment of blogger.com (blogspot.com)
+It generates comment in base of other comment of [blogger.com](https://blogspot.com)
 
+To create comment in base a the comment of the first post of blogspot of url, type `comment_random.create_commenty(url)`
 
-Use the function:
+> `url` is the blog url you wish to generate your comment on
 
-comment_random.create_commenty(url)
+To return the link of the first entry, type `comment_random.link_first_entry(url)`
 
-For generate comment in base a the comment of the first post of blogspot of url.
+To create a comment of the entry of url, type `create_comment(url)`
 
-Url is a url of the blog that want generate comment 
-
-
-Use the function:
-
-comment_random.link_first_entry(url)
-
-For return the link of the first entry
-
-
-Use the function:
-
-create_comment(url)
-
-For create a comment of the entry of url
-
-
-The module sortearpalabra.py its a module just generate text random with coherence, this module it in 
-https://github.com/damiansire/Generador-de-texto-aleatorio
+Module `sortearpalabra.py` is a module to generate random text with coherence, It is in [Generador de Texto Aleatorio](https://github.com/damiansire/Generador-de-texto-aleatorio)
